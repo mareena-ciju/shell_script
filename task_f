@@ -1,0 +1,3 @@
+ grep linux * | cut -d: -f1 | xargs mv -t new
+
+
