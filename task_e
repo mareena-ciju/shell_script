@@ -1,0 +1,19 @@
+
+
+
+PROGRAM INCOMPLETE\WRONG:
+
+
+
+
+
+str1=`ls`
+str2=`ls|tr [:upper:] [:lower:]`
+
+for $str1 $str2
+do
+        mv $str1 $str2
+done
+~                                                                                                                                              
+~                                                                                                                                              
+~        
