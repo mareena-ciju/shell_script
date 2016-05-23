@@ -1,0 +1,8 @@
+i=$1
+j=$2
+while test $i -le $j
+do
+        echo $i
+        i=`expr $i '+' 1`
+done
+
