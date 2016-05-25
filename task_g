@@ -1,0 +1,10 @@
+
+for i in *
+do
+        if [ -x $i ]
+        then
+        	mv $i /home/mareena/new
+        fi
+done
+
+~           
