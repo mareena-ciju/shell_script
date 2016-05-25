@@ -1,18 +1,7 @@
-
-
-
-PROGRAM INCOMPLETE\WRONG:
-
-
-
-
-
-str1=`ls`
-str2=`ls|tr [:upper:] [:lower:]`
-
-for $str1 $str2
+for x in *
 do
-        mv $str1 $str2
+	y=`echo $x | tr [:upper:] [:lower:]`
+	mv $x $y
 done
 ~                                                                                                                                              
 ~                                                                                                                                              
